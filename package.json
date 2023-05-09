@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator for educational purpose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Typescript",
+    "Javascript"
+  ],
+  "author": "Ilfat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.1.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
